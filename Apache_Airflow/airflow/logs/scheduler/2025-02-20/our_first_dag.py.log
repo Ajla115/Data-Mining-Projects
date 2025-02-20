@@ -445,3 +445,10 @@ airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
 [2025-02-20T13:25:46.889+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:25:46.889+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-20T13:25:46.895+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:25:46.895+0100] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
 [2025-02-20T13:25:46.902+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag.py took 0.087 seconds
+[2025-02-20T13:27:07.453+0100] {processor.py:186} INFO - Started process (PID=17679) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag.py
+[2025-02-20T13:27:07.453+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag.py for tasks to queue
+[2025-02-20T13:27:07.454+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:07.454+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag.py
+[2025-02-20T13:27:07.458+0100] {processor.py:925} INFO - DAG(s) 'our_first_dag' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag.py
+[2025-02-20T13:27:07.524+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:07.524+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:27:07.531+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:07.531+0100] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:27:07.538+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag.py took 0.086 seconds

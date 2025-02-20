@@ -194,3 +194,10 @@
 [2025-02-20T13:25:48.742+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:25:48.742+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-20T13:25:48.748+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:25:48.748+0100] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v2 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
 [2025-02-20T13:25:48.755+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag_v2.py took 0.084 seconds
+[2025-02-20T13:27:09.382+0100] {processor.py:186} INFO - Started process (PID=17687) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag_v2.py
+[2025-02-20T13:27:09.383+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag_v2.py for tasks to queue
+[2025-02-20T13:27:09.383+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:09.383+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag_v2.py
+[2025-02-20T13:27:09.388+0100] {processor.py:925} INFO - DAG(s) 'our_first_dag_v2' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag_v2.py
+[2025-02-20T13:27:09.456+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:09.456+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:27:09.462+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:09.462+0100] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v2 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:27:09.469+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/our_first_dag_v2.py took 0.088 seconds
