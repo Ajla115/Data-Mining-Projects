@@ -506,3 +506,11 @@
 [2025-02-20T14:16:39.695+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:16:39.695+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-20T14:16:39.699+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:16:39.699+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
 [2025-02-20T14:16:39.706+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.094 seconds
+[2025-02-20T14:21:02.693+0100] {processor.py:186} INFO - Started process (PID=23993) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-02-20T14:21:02.693+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-02-20T14:21:02.694+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:02.694+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-02-20T14:21:02.704+0100] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-02-20T14:21:02.777+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:02.776+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:21:02.795+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:02.795+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:21:02.800+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:02.800+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-02-20T14:21:02.807+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.119 seconds

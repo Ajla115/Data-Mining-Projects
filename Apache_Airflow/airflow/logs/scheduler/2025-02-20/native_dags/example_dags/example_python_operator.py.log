@@ -478,3 +478,11 @@
 [2025-02-20T14:16:42.759+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:16:42.759+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-20T14:16:42.763+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:16:42.763+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2025-02-20T14:16:42.771+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.090 seconds
+[2025-02-20T14:21:06.557+0100] {processor.py:186} INFO - Started process (PID=24011) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-02-20T14:21:06.560+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-02-20T14:21:06.560+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:06.560+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-02-20T14:21:06.573+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:06.572+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:21:06.574+0100] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-02-20T14:21:06.654+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:06.654+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:21:06.660+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:06.660+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-02-20T14:21:06.683+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.128 seconds
