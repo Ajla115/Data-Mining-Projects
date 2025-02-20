@@ -412,3 +412,10 @@
 [2025-02-20T14:16:44.674+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:16:44.674+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-20T14:16:44.678+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:16:44.677+0100] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
 [2025-02-20T14:16:44.684+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.101 seconds
+[2025-02-20T14:21:08.518+0100] {processor.py:186} INFO - Started process (PID=24029) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2025-02-20T14:21:08.519+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2025-02-20T14:21:08.519+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:08.519+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2025-02-20T14:21:08.537+0100] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2025-02-20T14:21:08.611+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:08.611+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:21:08.615+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:21:08.615+0100] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2025-02-20T14:21:08.622+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.106 seconds
