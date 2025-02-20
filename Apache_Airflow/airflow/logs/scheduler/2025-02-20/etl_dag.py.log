@@ -1,0 +1,1161 @@
+[2025-02-20T14:46:42.724+0100] {processor.py:186} INFO - Started process (PID=26814) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:46:42.725+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T14:46:42.725+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:46:42.725+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:46:42.727+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:46:42.726+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T14:46:42.727+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:46:42.798+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:46:42.798+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:46:42.806+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.083 seconds
+[2025-02-20T14:46:55.072+0100] {processor.py:186} INFO - Started process (PID=26839) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:46:55.073+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T14:46:55.075+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:46:55.074+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:46:55.077+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:46:55.077+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T14:46:55.078+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:46:55.213+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:46:55.213+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:46:55.221+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.153 seconds
+[2025-02-20T14:48:36.836+0100] {processor.py:186} INFO - Started process (PID=27005) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:48:36.837+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T14:48:36.837+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:48:36.837+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:48:36.839+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:48:36.838+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T14:48:36.839+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:48:36.924+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:48:36.924+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:48:36.933+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.098 seconds
+[2025-02-20T14:50:23.452+0100] {processor.py:186} INFO - Started process (PID=27246) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:50:23.452+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T14:50:23.453+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:50:23.453+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:50:23.454+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:50:23.453+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T14:50:23.454+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:50:23.534+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:50:23.534+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:50:23.541+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.091 seconds
+[2025-02-20T14:52:00.664+0100] {processor.py:186} INFO - Started process (PID=27395) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:52:00.665+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T14:52:00.665+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:52:00.665+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:52:00.666+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:52:00.666+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T14:52:00.666+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:52:00.730+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:52:00.730+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:52:00.736+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.073 seconds
+[2025-02-20T14:53:44.084+0100] {processor.py:186} INFO - Started process (PID=27541) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:53:44.084+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T14:53:44.085+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:53:44.085+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:53:44.086+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:53:44.086+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T14:53:44.086+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:53:44.150+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:53:44.150+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:53:44.156+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.074 seconds
+[2025-02-20T14:55:30.290+0100] {processor.py:186} INFO - Started process (PID=27697) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:55:30.291+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T14:55:30.292+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:55:30.291+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:55:30.293+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:55:30.292+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T14:55:30.293+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:55:30.356+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:55:30.356+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:55:30.364+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.075 seconds
+[2025-02-20T14:57:09.148+0100] {processor.py:186} INFO - Started process (PID=27844) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:57:09.149+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T14:57:09.149+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:57:09.149+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:57:09.151+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:57:09.150+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T14:57:09.152+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:57:09.235+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:57:09.235+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:57:09.242+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.097 seconds
+[2025-02-20T14:58:47.112+0100] {processor.py:186} INFO - Started process (PID=27975) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:58:47.112+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T14:58:47.113+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:58:47.113+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:58:47.114+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:58:47.114+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T14:58:47.114+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T14:58:47.199+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:58:47.199+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:58:47.210+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.101 seconds
+[2025-02-20T15:00:35.033+0100] {processor.py:186} INFO - Started process (PID=28125) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:00:35.033+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:00:35.034+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:00:35.034+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:00:35.035+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:00:35.034+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:00:35.035+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:00:35.100+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:00:35.100+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:00:35.107+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.076 seconds
+[2025-02-20T15:02:09.644+0100] {processor.py:186} INFO - Started process (PID=28260) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:02:09.645+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:02:09.646+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:02:09.645+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:02:09.646+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:02:09.646+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:02:09.647+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:02:09.714+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:02:09.714+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:02:09.721+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.078 seconds
+[2025-02-20T15:03:53.869+0100] {processor.py:186} INFO - Started process (PID=28413) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:03:53.870+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:03:53.870+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:03:53.870+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:03:53.872+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:03:53.871+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:03:53.872+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:03:53.954+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:03:53.954+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:03:53.960+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.094 seconds
+[2025-02-20T15:05:28.795+0100] {processor.py:186} INFO - Started process (PID=28547) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:05:28.795+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:05:28.796+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:05:28.796+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:05:28.797+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:05:28.797+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:05:28.797+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:05:28.880+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:05:28.880+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:05:28.888+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.095 seconds
+[2025-02-20T15:07:10.589+0100] {processor.py:186} INFO - Started process (PID=28705) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:07:10.589+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:07:10.590+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:07:10.590+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:07:10.591+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:07:10.591+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:07:10.591+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:07:10.670+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:07:10.670+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:07:10.677+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.090 seconds
+[2025-02-20T15:09:43.022+0100] {processor.py:186} INFO - Started process (PID=28915) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:09:43.022+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:09:43.023+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:09:43.023+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:09:43.024+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:09:43.023+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:09:43.024+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:09:43.094+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:09:43.094+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:09:43.100+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.080 seconds
+[2025-02-20T15:11:25.224+0100] {processor.py:186} INFO - Started process (PID=29063) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:11:25.227+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:11:25.228+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:11:25.228+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:11:25.231+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:11:25.230+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:11:25.231+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:11:25.563+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:11:25.562+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:11:25.569+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.353 seconds
+[2025-02-20T15:13:06.668+0100] {processor.py:186} INFO - Started process (PID=29185) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:13:06.669+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:13:06.669+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:13:06.669+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:13:06.670+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:13:06.670+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:13:06.670+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:13:06.738+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:13:06.738+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:13:06.744+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.078 seconds
+[2025-02-20T15:14:46.459+0100] {processor.py:186} INFO - Started process (PID=29299) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:14:46.460+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:14:46.460+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:14:46.460+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:14:46.461+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:14:46.461+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:14:46.461+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:14:46.529+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:14:46.529+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:14:46.535+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.078 seconds
+[2025-02-20T15:16:26.138+0100] {processor.py:186} INFO - Started process (PID=29412) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:16:26.138+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:16:26.139+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:16:26.139+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:16:26.141+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:16:26.141+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:16:26.142+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:16:26.230+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:16:26.230+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:16:26.237+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.102 seconds
+[2025-02-20T15:18:05.887+0100] {processor.py:186} INFO - Started process (PID=29650) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:18:05.888+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:18:05.888+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:18:05.888+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:18:05.889+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:18:05.889+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:18:05.889+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:18:05.958+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:18:05.957+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:18:05.964+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.078 seconds
+[2025-02-20T15:19:47.070+0100] {processor.py:186} INFO - Started process (PID=29799) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:19:47.071+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:19:47.071+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:19:47.071+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:19:47.072+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:19:47.072+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:19:47.072+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:19:47.141+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:19:47.141+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:19:47.147+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.079 seconds
+[2025-02-20T15:21:27.026+0100] {processor.py:186} INFO - Started process (PID=29924) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:21:27.026+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:21:27.027+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:21:27.027+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:21:27.028+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:21:27.027+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:21:27.028+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:21:27.101+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:21:27.101+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:21:27.108+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.085 seconds
+[2025-02-20T15:23:03.811+0100] {processor.py:186} INFO - Started process (PID=30055) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:23:03.815+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:23:03.815+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:23:03.815+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:23:03.824+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:23:03.823+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:23:03.824+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:23:03.900+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:23:03.900+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:23:03.907+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.097 seconds
+[2025-02-20T15:24:40.628+0100] {processor.py:186} INFO - Started process (PID=30167) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:24:40.629+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:24:40.629+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:24:40.629+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:24:40.631+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:24:40.630+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:24:40.631+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:24:40.698+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:24:40.698+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:24:40.705+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.079 seconds
+[2025-02-20T15:26:23.915+0100] {processor.py:186} INFO - Started process (PID=30297) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:26:23.916+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:26:23.917+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:26:23.917+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:26:23.919+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:26:23.918+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:26:23.919+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:26:23.988+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:26:23.988+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:26:23.994+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.081 seconds
+[2025-02-20T15:28:03.146+0100] {processor.py:186} INFO - Started process (PID=30421) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:28:03.146+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:28:03.147+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:28:03.147+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:28:03.148+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:28:03.147+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:28:03.148+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:28:03.213+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:28:03.213+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:28:03.220+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.076 seconds
+[2025-02-20T15:29:40.274+0100] {processor.py:186} INFO - Started process (PID=30529) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:29:40.275+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:29:40.275+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:29:40.275+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:29:40.276+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:29:40.276+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:29:40.276+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:29:40.351+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:29:40.351+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:29:40.358+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.085 seconds
+[2025-02-20T15:31:17.372+0100] {processor.py:186} INFO - Started process (PID=30653) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:31:17.373+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:31:17.374+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:31:17.373+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:31:17.375+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:31:17.374+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:31:17.375+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:31:17.440+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:31:17.440+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:31:17.446+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.075 seconds
+[2025-02-20T15:32:53.784+0100] {processor.py:186} INFO - Started process (PID=30781) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:32:53.785+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:32:53.785+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:32:53.785+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:32:53.786+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:32:53.786+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:32:53.786+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:32:53.851+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:32:53.851+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:32:53.858+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.076 seconds
+[2025-02-20T15:34:25.342+0100] {processor.py:186} INFO - Started process (PID=30896) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:34:25.342+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:34:25.343+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:34:25.343+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:34:25.344+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:34:25.344+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:34:25.344+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:34:25.410+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:34:25.410+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:34:25.416+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.076 seconds
+[2025-02-20T15:35:52.562+0100] {processor.py:186} INFO - Started process (PID=31022) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:35:52.563+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:35:52.563+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:35:52.563+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:35:52.564+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:35:52.564+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:35:52.564+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:35:52.627+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:35:52.627+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:35:52.633+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.073 seconds
+[2025-02-20T15:37:25.864+0100] {processor.py:186} INFO - Started process (PID=31170) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:37:25.864+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:37:25.865+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:37:25.865+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:37:25.866+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:37:25.865+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:37:25.866+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:37:25.984+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:37:25.984+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:37:25.994+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.132 seconds
+[2025-02-20T15:39:00.477+0100] {processor.py:186} INFO - Started process (PID=31318) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:39:00.477+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:39:00.478+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:39:00.478+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:39:00.479+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:39:00.479+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:39:00.479+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:39:00.542+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:39:00.542+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:39:00.548+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.073 seconds
+[2025-02-20T15:40:28.883+0100] {processor.py:186} INFO - Started process (PID=31436) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:40:28.883+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:40:28.884+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:40:28.884+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:40:28.885+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:40:28.884+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:40:28.885+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:40:28.949+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:40:28.949+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:40:28.955+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.074 seconds
+[2025-02-20T15:41:59.791+0100] {processor.py:186} INFO - Started process (PID=31544) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:41:59.791+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:41:59.792+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:41:59.792+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:41:59.793+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:41:59.793+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:41:59.793+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:41:59.856+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:41:59.856+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:41:59.862+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.073 seconds
+[2025-02-20T15:51:24.909+0100] {processor.py:186} INFO - Started process (PID=31682) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:51:24.910+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T15:51:24.910+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:51:24.910+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:51:24.911+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:51:24.911+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T15:51:24.912+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T15:51:24.977+0100] {logging_mixin.py:190} INFO - [2025-02-20T15:51:24.977+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T15:51:24.986+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.078 seconds
+[2025-02-20T16:01:16.886+0100] {processor.py:186} INFO - Started process (PID=31811) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:01:16.887+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:01:16.888+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:01:16.887+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:01:16.889+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:01:16.888+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:01:16.889+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:01:16.953+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:01:16.953+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:01:16.959+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.074 seconds
+[2025-02-20T16:02:46.161+0100] {processor.py:186} INFO - Started process (PID=31924) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:02:46.166+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:02:46.167+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:02:46.167+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:02:46.168+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:02:46.167+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:02:46.168+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:02:46.235+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:02:46.235+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:02:46.241+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.086 seconds
+[2025-02-20T16:04:20.016+0100] {processor.py:186} INFO - Started process (PID=32045) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:04:20.017+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:04:20.017+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:04:20.017+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:04:20.018+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:04:20.018+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:04:20.018+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:04:20.092+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:04:20.092+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:04:20.098+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.085 seconds
+[2025-02-20T16:05:57.455+0100] {processor.py:186} INFO - Started process (PID=32160) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:05:57.456+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:05:57.456+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:05:57.456+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:05:57.457+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:05:57.457+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:05:57.458+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:05:57.524+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:05:57.524+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:05:57.531+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.079 seconds
+[2025-02-20T16:07:37.522+0100] {processor.py:186} INFO - Started process (PID=32276) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:07:37.522+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:07:37.523+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:07:37.523+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:07:37.524+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:07:37.523+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:07:37.524+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:07:37.595+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:07:37.595+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:07:37.601+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.081 seconds
+[2025-02-20T16:09:08.906+0100] {processor.py:186} INFO - Started process (PID=32393) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:09:08.906+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:09:08.907+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:09:08.907+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:09:08.908+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:09:08.908+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:09:08.908+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:09:08.974+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:09:08.974+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:09:08.981+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.076 seconds
+[2025-02-20T16:10:42.764+0100] {processor.py:186} INFO - Started process (PID=32512) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:10:42.765+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:10:42.765+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:10:42.765+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:10:42.767+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:10:42.766+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:10:42.767+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:10:42.834+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:10:42.834+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:10:42.840+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.078 seconds
+[2025-02-20T16:12:13.311+0100] {processor.py:186} INFO - Started process (PID=32619) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:12:13.312+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:12:13.312+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:12:13.312+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:12:13.314+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:12:13.313+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:12:13.314+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:12:13.379+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:12:13.379+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:12:13.385+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.075 seconds
+[2025-02-20T16:13:45.180+0100] {processor.py:186} INFO - Started process (PID=32738) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:13:45.180+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:13:45.181+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:13:45.181+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:13:45.182+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:13:45.181+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:13:45.182+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:13:45.246+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:13:45.246+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:13:45.252+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.074 seconds
+[2025-02-20T16:15:28.971+0100] {processor.py:186} INFO - Started process (PID=32866) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:15:28.971+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:15:28.972+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:15:28.972+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:15:28.973+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:15:28.972+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:15:28.973+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:15:29.038+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:15:29.038+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:15:29.044+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.075 seconds
+[2025-02-20T16:17:05.541+0100] {processor.py:186} INFO - Started process (PID=33005) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:17:05.542+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:17:05.543+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:17:05.543+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:17:05.544+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:17:05.543+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:17:05.544+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:17:05.627+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:17:05.626+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:17:05.634+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.094 seconds
+[2025-02-20T16:18:45.546+0100] {processor.py:186} INFO - Started process (PID=33132) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:18:45.547+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:18:45.547+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:18:45.547+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:18:45.548+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:18:45.548+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:18:45.549+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:18:45.614+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:18:45.614+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:18:45.621+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.077 seconds
+[2025-02-20T16:20:27.289+0100] {processor.py:186} INFO - Started process (PID=33259) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:20:27.290+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:20:27.290+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:20:27.290+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:20:27.291+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:20:27.291+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:20:27.291+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:20:27.365+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:20:27.365+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:20:27.382+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.095 seconds
+[2025-02-20T16:22:40.531+0100] {processor.py:186} INFO - Started process (PID=33418) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:22:40.531+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:22:40.532+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:22:40.532+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:22:40.533+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:22:40.532+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:22:40.533+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:22:40.599+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:22:40.598+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:22:40.605+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.076 seconds
+[2025-02-20T16:24:10.136+0100] {processor.py:186} INFO - Started process (PID=33532) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:24:10.136+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:24:10.137+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:24:10.137+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:24:10.138+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:24:10.138+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:24:10.138+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:24:10.205+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:24:10.205+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:24:10.211+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.077 seconds
+[2025-02-20T16:25:39.651+0100] {processor.py:186} INFO - Started process (PID=33652) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:25:39.652+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:25:39.652+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:25:39.652+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:25:39.654+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:25:39.653+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:25:39.654+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:25:39.720+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:25:39.720+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:25:39.727+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.077 seconds
+[2025-02-20T16:27:22.115+0100] {processor.py:186} INFO - Started process (PID=33794) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:27:22.115+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:27:22.116+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:27:22.116+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:27:22.117+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:27:22.117+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:27:22.117+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:27:22.188+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:27:22.188+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:27:22.195+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.083 seconds
+[2025-02-20T16:28:56.187+0100] {processor.py:186} INFO - Started process (PID=33917) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:28:56.220+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:28:56.225+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:28:56.224+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:28:56.228+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:28:56.227+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:28:56.228+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:28:56.326+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:28:56.326+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:28:56.333+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.180 seconds
+[2025-02-20T16:30:31.002+0100] {processor.py:186} INFO - Started process (PID=34085) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:30:31.003+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:30:31.004+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:30:31.004+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:30:31.005+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:30:31.005+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:30:31.005+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:30:31.069+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:30:31.069+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:30:31.075+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.074 seconds
+[2025-02-20T16:32:05.127+0100] {processor.py:186} INFO - Started process (PID=34312) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:32:05.128+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:32:05.128+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:32:05.128+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:32:05.129+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:32:05.129+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:32:05.129+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:32:05.194+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:32:05.194+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:32:05.202+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.076 seconds
+[2025-02-20T16:33:35.478+0100] {processor.py:186} INFO - Started process (PID=34473) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:33:35.478+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:33:35.479+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:33:35.479+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:33:35.480+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:33:35.480+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:33:35.480+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:33:35.551+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:33:35.551+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:33:35.558+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.082 seconds
+[2025-02-20T16:35:01.814+0100] {processor.py:186} INFO - Started process (PID=34577) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:35:01.814+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:35:01.815+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:35:01.815+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:35:01.816+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:35:01.816+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:35:01.816+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:35:01.878+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:35:01.878+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:35:01.884+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.072 seconds
+[2025-02-20T16:36:30.304+0100] {processor.py:186} INFO - Started process (PID=34745) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:36:30.304+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:36:30.305+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:36:30.305+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:36:30.306+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:36:30.305+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:36:30.306+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:36:30.371+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:36:30.370+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:36:30.377+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.075 seconds
+[2025-02-20T16:37:58.649+0100] {processor.py:186} INFO - Started process (PID=34939) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:37:58.650+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:37:58.650+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:37:58.650+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:37:58.651+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:37:58.651+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 62
+    Displaying etl_example.py.
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2025-02-20T16:37:58.652+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:37:58.717+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:37:58.717+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:37:58.734+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.087 seconds
+[2025-02-20T16:39:26.426+0100] {processor.py:186} INFO - Started process (PID=35140) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:39:26.429+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:39:26.430+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:39:26.430+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:39:26.442+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:39:26.442+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py", line 5, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2025-02-20T16:39:26.442+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:39:26.515+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:39:26.515+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T16:39:26.521+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.102 seconds
+[2025-02-20T16:41:14.330+0100] {processor.py:186} INFO - Started process (PID=35463) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:41:14.331+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:41:14.331+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.331+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:41:14.694+0100] {processor.py:925} INFO - DAG(s) 'etl_example' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:41:14.796+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.795+0100] {override.py:1912} INFO - Created Permission View: can read on DAG:etl_example
+[2025-02-20T16:41:14.799+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.799+0100] {override.py:1912} INFO - Created Permission View: can delete on DAG:etl_example
+[2025-02-20T16:41:14.801+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.801+0100] {override.py:1912} INFO - Created Permission View: can edit on DAG:etl_example
+[2025-02-20T16:41:14.804+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.804+0100] {override.py:1912} INFO - Created Permission View: can read on DAG Run:etl_example
+[2025-02-20T16:41:14.807+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.807+0100] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:etl_example
+[2025-02-20T16:41:14.809+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.809+0100] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:etl_example
+[2025-02-20T16:41:14.811+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.811+0100] {override.py:1912} INFO - Created Permission View: can create on DAG Run:etl_example
+[2025-02-20T16:41:14.811+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.811+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T16:41:14.815+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.815+0100] {dag.py:3262} INFO - Creating ORM DAG for etl_example
+[2025-02-20T16:41:14.818+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:41:14.818+0100] {dag.py:4180} INFO - Setting next_dagrun for etl_example to 2024-03-24 00:00:00+00:00, run_after=2024-03-25 00:00:00+00:00
+[2025-02-20T16:41:14.824+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.496 seconds
+[2025-02-20T16:43:18.173+0100] {processor.py:186} INFO - Started process (PID=35796) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:43:18.174+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:43:18.175+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:43:18.175+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:43:18.548+0100] {processor.py:925} INFO - DAG(s) 'etl_example' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:43:18.588+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:43:18.588+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T16:43:18.597+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:43:18.597+0100] {dag.py:4180} INFO - Setting next_dagrun for etl_example to 2024-03-24 00:00:00+00:00, run_after=2024-03-25 00:00:00+00:00
+[2025-02-20T16:43:18.604+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.433 seconds
+[2025-02-20T16:45:23.253+0100] {processor.py:186} INFO - Started process (PID=36030) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:45:23.254+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:45:23.254+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:45:23.254+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:45:23.561+0100] {processor.py:925} INFO - DAG(s) 'etl_example' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:45:23.600+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:45:23.600+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T16:45:23.607+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:45:23.606+0100] {dag.py:4180} INFO - Setting next_dagrun for etl_example to 2024-03-24 00:00:00+00:00, run_after=2024-03-25 00:00:00+00:00
+[2025-02-20T16:45:23.613+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.361 seconds
+[2025-02-20T16:47:07.374+0100] {processor.py:186} INFO - Started process (PID=36242) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:47:07.375+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:47:07.376+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:47:07.376+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:47:07.774+0100] {processor.py:925} INFO - DAG(s) 'etl_example' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:47:07.812+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:47:07.812+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T16:47:07.825+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.454 seconds
+[2025-02-20T16:49:14.909+0100] {processor.py:186} INFO - Started process (PID=36536) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:49:14.910+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:49:14.910+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:49:14.910+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:49:15.260+0100] {processor.py:925} INFO - DAG(s) 'etl_example' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:49:15.301+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:49:15.301+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T16:49:15.317+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.415 seconds
+[2025-02-20T16:51:14.366+0100] {processor.py:186} INFO - Started process (PID=36820) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:51:14.367+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:51:14.367+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:51:14.367+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:51:14.563+0100] {processor.py:925} INFO - DAG(s) 'etl_example' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:51:14.602+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:51:14.602+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T16:51:14.609+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:51:14.609+0100] {dag.py:4180} INFO - Setting next_dagrun for etl_example to 2024-04-09 00:00:00+00:00, run_after=2024-04-10 00:00:00+00:00
+[2025-02-20T16:51:14.617+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.253 seconds
+[2025-02-20T16:53:09.609+0100] {processor.py:186} INFO - Started process (PID=37030) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:53:09.610+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:53:09.610+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:53:09.610+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:53:09.918+0100] {processor.py:925} INFO - DAG(s) 'etl_example' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:53:09.956+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:53:09.956+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T16:53:09.968+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.361 seconds
+[2025-02-20T16:54:43.891+0100] {processor.py:186} INFO - Started process (PID=37160) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:54:43.892+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:54:43.893+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:54:43.893+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:54:44.128+0100] {processor.py:925} INFO - DAG(s) 'etl_example' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:54:44.165+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:54:44.165+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T16:54:44.177+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.288 seconds
+[2025-02-20T16:56:14.847+0100] {processor.py:186} INFO - Started process (PID=37269) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:56:14.847+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py for tasks to queue
+[2025-02-20T16:56:14.848+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:56:14.848+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:56:15.156+0100] {processor.py:925} INFO - DAG(s) 'etl_example' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py
+[2025-02-20T16:56:15.194+0100] {logging_mixin.py:190} INFO - [2025-02-20T16:56:15.194+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T16:56:15.206+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/etl_dag.py took 0.361 seconds

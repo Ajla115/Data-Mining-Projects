@@ -1,0 +1,25 @@
+[2025-02-20T16:44:57.416+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-20T16:44:57.421+0100] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_taskflow_api.get_user_details scheduled__2025-02-19T00:00:00+00:00 [queued]>
+[2025-02-20T16:44:57.423+0100] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_taskflow_api.get_user_details scheduled__2025-02-19T00:00:00+00:00 [queued]>
+[2025-02-20T16:44:57.423+0100] {taskinstance.py:2867} INFO - Starting attempt 1 of 6
+[2025-02-20T16:44:57.428+0100] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): get_user_details> on 2025-02-19 00:00:00+00:00
+[2025-02-20T16:44:57.431+0100] {standard_task_runner.py:72} INFO - Started process 35993 to run task
+[2025-02-20T16:44:57.434+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_with_taskflow_api', 'get_user_details', 'scheduled__2025-02-19T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_taskflow_api.py', '--cfg-path', '/var/folders/d6/rl60yzz90jj_2v0s4gm257780000gn/T/tmp_n3fopn7']
+[2025-02-20T16:44:57.435+0100] {standard_task_runner.py:105} INFO - Job 30: Subtask get_user_details
+[2025-02-20T16:44:57.465+0100] {task_command.py:467} INFO - Running <TaskInstance: dag_with_taskflow_api.get_user_details scheduled__2025-02-19T00:00:00+00:00 [running]> on host ajlas-macbook-air.local
+[2025-02-20T16:44:57.487+0100] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ajlakorman' AIRFLOW_CTX_DAG_ID='dag_with_taskflow_api' AIRFLOW_CTX_TASK_ID='get_user_details' AIRFLOW_CTX_EXECUTION_DATE='2025-02-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-19T00:00:00+00:00'
+[2025-02-20T16:44:57.487+0100] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-20T16:44:57.487+0100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-20T16:44:57.488+0100] {logging_mixin.py:190} INFO - Current task name:get_user_details state:running start_date:2025-02-20 15:44:57.421658+00:00
+[2025-02-20T16:44:57.488+0100] {logging_mixin.py:190} INFO - Dag name:dag_with_taskflow_api and current dag run status:running
+[2025-02-20T16:44:57.488+0100] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-20T16:44:57.488+0100] {python.py:240} INFO - Done. Returned value was: {'first_name': 'Ajla', 'last_name': 'Korman', 'age': 22}
+[2025-02-20T16:44:57.494+0100] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-20T16:44:57.495+0100] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_with_taskflow_api, task_id=get_user_details, run_id=scheduled__2025-02-19T00:00:00+00:00, execution_date=20250219T000000, start_date=20250220T154457, end_date=20250220T154457
+[2025-02-20T16:44:57.499+0100] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-20T16:44:57.500+0100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-20T16:44:57.500+0100] {logging_mixin.py:190} INFO - Dag name:dag_with_taskflow_api queued_at:2025-02-20 15:44:56.133485+00:00
+[2025-02-20T16:44:57.500+0100] {logging_mixin.py:190} INFO - Task hostname:ajlas-macbook-air.local operator:_PythonDecoratedOperator
+[2025-02-20T16:44:57.541+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-20T16:44:57.551+0100] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-20T16:44:57.552+0100] {local_task_job_runner.py:245} INFO - ::endgroup::
