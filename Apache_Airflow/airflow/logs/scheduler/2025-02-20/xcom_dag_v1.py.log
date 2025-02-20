@@ -1,0 +1,175 @@
+[2025-02-20T14:01:34.041+0100] {processor.py:186} INFO - Started process (PID=21995) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:01:34.042+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:01:34.042+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:01:34.042+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:01:34.055+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:01:34.055+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py", line 35, in <module>
+    task2
+NameError: name 'task2' is not defined
+[2025-02-20T14:01:34.055+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:01:34.130+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:01:34.130+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:01:34.138+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.098 seconds
+[2025-02-20T14:02:21.193+0100] {processor.py:186} INFO - Started process (PID=22070) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:02:21.194+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:02:21.194+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:02:21.194+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:02:21.204+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:02:21.203+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py", line 35, in <module>
+    task2
+NameError: name 'task2' is not defined
+[2025-02-20T14:02:21.204+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:02:21.265+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:02:21.265+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:02:21.271+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.079 seconds
+[2025-02-20T14:03:46.800+0100] {processor.py:186} INFO - Started process (PID=22223) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:03:46.801+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:03:46.801+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:03:46.801+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:03:46.803+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:03:46.802+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py", line 35
+    task1 = PythonOperator (
+IndentationError: unexpected indent
+[2025-02-20T14:03:46.803+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:03:46.871+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:03:46.870+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:03:46.877+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.079 seconds
+[2025-02-20T14:05:16.512+0100] {processor.py:186} INFO - Started process (PID=22409) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:05:16.513+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:05:16.513+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:05:16.513+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:05:16.515+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:05:16.514+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py", line 35
+    task1 = PythonOperator (
+IndentationError: unexpected indent
+[2025-02-20T14:05:16.515+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:05:16.583+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:05:16.583+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:05:16.589+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.078 seconds
+[2025-02-20T14:06:46.154+0100] {processor.py:186} INFO - Started process (PID=22600) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:06:46.159+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:06:46.160+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:06:46.160+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:06:46.162+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:06:46.161+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py", line 35
+    task1 = PythonOperator (
+IndentationError: unexpected indent
+[2025-02-20T14:06:46.162+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:06:46.229+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:06:46.228+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:06:46.235+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.083 seconds
+[2025-02-20T14:08:18.787+0100] {processor.py:186} INFO - Started process (PID=22791) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:08:18.788+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:08:18.788+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:08:18.788+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:08:18.789+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:08:18.789+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py", line 35
+    task1 = PythonOperator (
+IndentationError: unexpected indent
+[2025-02-20T14:08:18.790+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:08:18.855+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:08:18.855+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:08:18.861+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.075 seconds
+[2025-02-20T14:09:46.484+0100] {processor.py:186} INFO - Started process (PID=22951) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:09:46.485+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:09:46.485+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:09:46.485+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:09:46.487+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:09:46.486+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py", line 35
+    task1 = PythonOperator (
+IndentationError: unexpected indent
+[2025-02-20T14:09:46.487+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:09:46.554+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:09:46.553+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:09:46.560+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.077 seconds
+[2025-02-20T14:11:14.874+0100] {processor.py:186} INFO - Started process (PID=23121) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:11:14.874+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:11:14.875+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:11:14.875+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:11:14.876+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:11:14.876+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py", line 35
+    task1 = PythonOperator (
+IndentationError: unexpected indent
+[2025-02-20T14:11:14.876+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:11:14.941+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:11:14.940+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:11:14.947+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.075 seconds
+[2025-02-20T14:12:45.181+0100] {processor.py:186} INFO - Started process (PID=23376) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:12:45.182+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:12:45.182+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.182+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:12:45.194+0100] {processor.py:925} INFO - DAG(s) 'xcom_dag_v1' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:12:45.290+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.290+0100] {override.py:1912} INFO - Created Permission View: can delete on DAG:xcom_dag_v1
+[2025-02-20T14:12:45.294+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.294+0100] {override.py:1912} INFO - Created Permission View: can edit on DAG:xcom_dag_v1
+[2025-02-20T14:12:45.296+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.296+0100] {override.py:1912} INFO - Created Permission View: can read on DAG:xcom_dag_v1
+[2025-02-20T14:12:45.299+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.299+0100] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:xcom_dag_v1
+[2025-02-20T14:12:45.301+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.301+0100] {override.py:1912} INFO - Created Permission View: can read on DAG Run:xcom_dag_v1
+[2025-02-20T14:12:45.303+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.303+0100] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:xcom_dag_v1
+[2025-02-20T14:12:45.307+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.307+0100] {override.py:1912} INFO - Created Permission View: can create on DAG Run:xcom_dag_v1
+[2025-02-20T14:12:45.308+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.307+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:12:45.314+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.314+0100] {dag.py:3262} INFO - Creating ORM DAG for xcom_dag_v1
+[2025-02-20T14:12:45.317+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:45.317+0100] {dag.py:4180} INFO - Setting next_dagrun for xcom_dag_v1 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:12:45.325+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.145 seconds
+[2025-02-20T14:14:18.979+0100] {processor.py:186} INFO - Started process (PID=23563) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:14:18.979+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:14:18.980+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:14:18.980+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:14:18.992+0100] {processor.py:925} INFO - DAG(s) 'xcom_dag_v1' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:14:19.054+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:14:19.054+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:14:19.062+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:14:19.062+0100] {dag.py:4180} INFO - Setting next_dagrun for xcom_dag_v1 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:14:19.068+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.093 seconds
+[2025-02-20T14:15:46.261+0100] {processor.py:186} INFO - Started process (PID=23680) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:15:46.262+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:15:46.262+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:15:46.262+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:15:46.273+0100] {processor.py:925} INFO - DAG(s) 'xcom_dag_v1' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:15:46.334+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:15:46.334+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:15:46.341+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:15:46.341+0100] {dag.py:4180} INFO - Setting next_dagrun for xcom_dag_v1 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:15:46.347+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.088 seconds
+[2025-02-20T14:17:09.567+0100] {processor.py:186} INFO - Started process (PID=23794) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:17:09.567+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:17:09.568+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:17:09.568+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:17:09.579+0100] {processor.py:925} INFO - DAG(s) 'xcom_dag_v1' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:17:09.639+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:17:09.639+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:17:09.646+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:17:09.646+0100] {dag.py:4180} INFO - Setting next_dagrun for xcom_dag_v1 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:17:09.652+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.087 seconds
+[2025-02-20T14:20:06.511+0100] {processor.py:186} INFO - Started process (PID=23917) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:20:06.512+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py for tasks to queue
+[2025-02-20T14:20:06.512+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:20:06.512+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:20:06.524+0100] {processor.py:925} INFO - DAG(s) 'xcom_dag_v1' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:20:06.586+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:20:06.586+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:20:06.593+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:20:06.593+0100] {dag.py:4180} INFO - Setting next_dagrun for xcom_dag_v1 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:20:06.599+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py took 0.090 seconds

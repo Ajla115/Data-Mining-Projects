@@ -1,0 +1,258 @@
+[2025-02-20T13:36:30.481+0100] {processor.py:186} INFO - Started process (PID=18687) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:36:30.481+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:36:30.482+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:36:30.482+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:36:30.484+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:36:30.483+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py", line 2, in <module>
+    from airflow.operators.bash import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash' (/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2025-02-20T13:36:30.484+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:36:30.548+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:36:30.548+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:36:30.555+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.075 seconds
+[2025-02-20T13:37:43.407+0100] {processor.py:186} INFO - Started process (PID=18864) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:37:43.408+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:37:43.408+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:37:43.408+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:37:43.411+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:37:43.410+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py", line 2, in <module>
+    from airflow.operators.bash import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash' (/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2025-02-20T13:37:43.411+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:37:43.478+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:37:43.477+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:37:43.483+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.077 seconds
+[2025-02-20T13:39:03.899+0100] {processor.py:186} INFO - Started process (PID=19095) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:39:03.900+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:39:03.900+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:39:03.900+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:39:03.903+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:39:03.902+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py", line 2, in <module>
+    from airflow.operators.bash import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash' (/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2025-02-20T13:39:03.903+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:39:03.985+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:39:03.985+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:39:03.991+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.093 seconds
+[2025-02-20T13:40:24.690+0100] {processor.py:186} INFO - Started process (PID=19373) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:40:24.690+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:40:24.691+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:40:24.691+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:40:24.693+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:40:24.693+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py", line 2, in <module>
+    from airflow.operators.bash import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash' (/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2025-02-20T13:40:24.693+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:40:24.759+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:40:24.759+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:40:24.765+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.077 seconds
+[2025-02-20T13:41:45.293+0100] {processor.py:186} INFO - Started process (PID=19505) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:41:45.294+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:41:45.295+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:41:45.295+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:41:45.297+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:41:45.296+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py", line 2, in <module>
+    from airflow.operators.bash import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash' (/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2025-02-20T13:41:45.297+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:41:45.362+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:41:45.362+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:41:45.368+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.076 seconds
+[2025-02-20T13:43:18.062+0100] {processor.py:186} INFO - Started process (PID=19679) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:43:18.065+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:43:18.068+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:43:18.068+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:43:18.071+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:43:18.071+0100] {dagbag.py:387} ERROR - Failed to import: /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py", line 2, in <module>
+    from airflow.operators.bash import PythonOperator
+ImportError: cannot import name 'PythonOperator' from 'airflow.operators.bash' (/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/operators/bash.py)
+[2025-02-20T13:43:18.072+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:43:18.165+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:43:18.165+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:43:18.173+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.122 seconds
+[2025-02-20T13:44:48.426+0100] {processor.py:186} INFO - Started process (PID=19944) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:44:48.427+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:44:48.428+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:44:48.428+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:44:48.439+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:44:48.442+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:44:48.441+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:44:48.505+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:44:48.505+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:44:48.513+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.089 seconds
+[2025-02-20T13:46:15.431+0100] {processor.py:186} INFO - Started process (PID=20221) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:46:15.432+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:46:15.432+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:46:15.432+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:46:15.443+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:46:15.543+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:46:15.543+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:46:15.550+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:46:15.550+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:46:15.558+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.128 seconds
+[2025-02-20T13:47:43.771+0100] {processor.py:186} INFO - Started process (PID=20506) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:47:43.772+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:47:43.772+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:47:43.772+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:47:43.786+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:47:43.862+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:47:43.862+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:47:43.870+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:47:43.870+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:47:43.879+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.110 seconds
+[2025-02-20T13:49:14.756+0100] {processor.py:186} INFO - Started process (PID=20725) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:49:14.756+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:49:14.757+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:49:14.757+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:49:14.768+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:49:14.831+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:49:14.831+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:49:14.838+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:49:14.837+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:49:14.845+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.091 seconds
+[2025-02-20T13:50:41.485+0100] {processor.py:186} INFO - Started process (PID=20871) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:50:41.485+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:50:41.486+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:50:41.486+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:50:41.505+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:50:41.570+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:50:41.570+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:50:41.577+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:50:41.577+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:50:41.583+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.100 seconds
+[2025-02-20T13:52:10.048+0100] {processor.py:186} INFO - Started process (PID=20990) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:52:10.048+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:52:10.049+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:52:10.049+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:52:10.060+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:52:10.127+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:52:10.127+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:52:10.135+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:52:10.134+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:52:10.141+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.095 seconds
+[2025-02-20T13:53:34.909+0100] {processor.py:186} INFO - Started process (PID=21136) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:53:34.910+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:53:34.911+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:53:34.911+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:53:34.936+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:53:35.121+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:53:35.121+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:53:35.133+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:53:35.133+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:53:35.141+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.233 seconds
+[2025-02-20T13:55:00.334+0100] {processor.py:186} INFO - Started process (PID=21244) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:55:00.334+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:55:00.335+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:55:00.335+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:55:00.348+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:55:00.413+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:55:00.413+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:55:00.420+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:55:00.420+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:55:00.426+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.094 seconds
+[2025-02-20T13:56:28.874+0100] {processor.py:186} INFO - Started process (PID=21348) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:56:28.875+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:56:28.875+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:56:28.875+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:56:28.891+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:56:29.058+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:56:29.057+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:56:29.066+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:56:29.066+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:56:29.076+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.204 seconds
+[2025-02-20T13:58:00.219+0100] {processor.py:186} INFO - Started process (PID=21481) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:58:00.220+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:58:00.221+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:58:00.221+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:58:00.232+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:58:00.296+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:58:00.296+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:58:00.303+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:58:00.302+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:58:00.310+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.092 seconds
+[2025-02-20T13:59:23.855+0100] {processor.py:186} INFO - Started process (PID=21603) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:59:23.856+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T13:59:23.856+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:59:23.856+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:59:23.867+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:59:23.949+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:59:23.948+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:59:23.958+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:59:23.958+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T13:59:23.966+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.113 seconds
+[2025-02-20T14:00:49.222+0100] {processor.py:186} INFO - Started process (PID=21829) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:00:49.223+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:00:49.223+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:00:49.223+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:00:49.234+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:00:49.300+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:00:49.300+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:00:49.307+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:00:49.307+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:00:49.321+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.101 seconds
+[2025-02-20T14:02:23.239+0100] {processor.py:186} INFO - Started process (PID=22072) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:02:23.240+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:02:23.240+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:02:23.240+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:02:23.251+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:02:23.315+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:02:23.314+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:02:23.322+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:02:23.321+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:02:23.328+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.091 seconds
+[2025-02-20T14:03:48.827+0100] {processor.py:186} INFO - Started process (PID=22227) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:03:48.828+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:03:48.828+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:03:48.828+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:03:48.843+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:03:48.913+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:03:48.913+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:03:48.922+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:03:48.922+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:03:48.929+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.107 seconds
+[2025-02-20T14:05:18.615+0100] {processor.py:186} INFO - Started process (PID=22417) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:05:18.616+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:05:18.616+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:05:18.616+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:05:18.628+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:05:18.693+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:05:18.693+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:05:18.700+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:05:18.700+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:05:18.707+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.094 seconds
+[2025-02-20T14:06:48.057+0100] {processor.py:186} INFO - Started process (PID=22602) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:06:48.058+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:06:48.058+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:06:48.058+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:06:48.071+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:06:48.134+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:06:48.134+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:06:48.142+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:06:48.142+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:06:48.148+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.093 seconds
+[2025-02-20T14:08:19.995+0100] {processor.py:186} INFO - Started process (PID=22793) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:08:19.996+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:08:19.996+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:08:19.996+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:08:20.010+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:08:20.080+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:08:20.080+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:08:20.088+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:08:20.088+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:08:20.096+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.104 seconds
+[2025-02-20T14:09:48.421+0100] {processor.py:186} INFO - Started process (PID=22958) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:09:48.422+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:09:48.422+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:09:48.422+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:09:48.434+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:09:48.498+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:09:48.498+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:09:48.506+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:09:48.505+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:09:48.512+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.093 seconds
+[2025-02-20T14:11:16.741+0100] {processor.py:186} INFO - Started process (PID=23129) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:11:16.742+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:11:16.742+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:11:16.742+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:11:16.753+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:11:16.819+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:11:16.819+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:11:16.826+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:11:16.826+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:11:16.833+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.093 seconds
+[2025-02-20T14:12:47.155+0100] {processor.py:186} INFO - Started process (PID=23378) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:12:47.155+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:12:47.156+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:47.156+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:12:47.167+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:12:47.230+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:47.230+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:12:47.237+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:12:47.237+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:12:47.244+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.091 seconds
+[2025-02-20T14:14:20.799+0100] {processor.py:186} INFO - Started process (PID=23565) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:14:20.799+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:14:20.800+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:14:20.800+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:14:20.811+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:14:20.875+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:14:20.874+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:14:20.881+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:14:20.881+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:14:20.888+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.091 seconds
+[2025-02-20T14:15:48.169+0100] {processor.py:186} INFO - Started process (PID=23682) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:15:48.170+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:15:48.170+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:15:48.170+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:15:48.182+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:15:48.244+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:15:48.244+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:15:48.251+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:15:48.251+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:15:48.258+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.090 seconds
+[2025-02-20T14:18:43.404+0100] {processor.py:186} INFO - Started process (PID=23801) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:18:43.405+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:18:43.406+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:18:43.406+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:18:43.417+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:18:43.496+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:18:43.496+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:18:43.504+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:18:43.503+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:18:43.515+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.112 seconds
+[2025-02-20T14:20:08.428+0100] {processor.py:186} INFO - Started process (PID=23919) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:20:08.429+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py for tasks to queue
+[2025-02-20T14:20:08.430+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:20:08.430+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:20:08.442+0100] {processor.py:925} INFO - DAG(s) 'python_operator_dag_v01' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T14:20:08.505+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:20:08.505+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T14:20:08.512+0100] {logging_mixin.py:190} INFO - [2025-02-20T14:20:08.512+0100] {dag.py:4180} INFO - Setting next_dagrun for python_operator_dag_v01 to 2025-02-20 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2025-02-20T14:20:08.519+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py took 0.092 seconds

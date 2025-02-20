@@ -1,0 +1,25 @@
+[2025-02-20T14:13:54.986+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-20T14:13:54.991+0100] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xcom_dag_v2.get_age manual__2025-02-20T13:13:51.111223+00:00 [queued]>
+[2025-02-20T14:13:54.995+0100] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xcom_dag_v2.get_age manual__2025-02-20T13:13:51.111223+00:00 [queued]>
+[2025-02-20T14:13:54.995+0100] {taskinstance.py:2867} INFO - Starting attempt 1 of 6
+[2025-02-20T14:13:55.000+0100] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): get_age> on 2025-02-20 13:13:51.111223+00:00
+[2025-02-20T14:13:55.003+0100] {standard_task_runner.py:72} INFO - Started process 23505 to run task
+[2025-02-20T14:13:55.006+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'xcom_dag_v2', 'get_age', 'manual__2025-02-20T13:13:51.111223+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/xcom_dag_v2.py', '--cfg-path', '/var/folders/d6/rl60yzz90jj_2v0s4gm257780000gn/T/tmpsn6mvku8']
+[2025-02-20T14:13:55.007+0100] {standard_task_runner.py:105} INFO - Job 28: Subtask get_age
+[2025-02-20T14:13:55.024+0100] {task_command.py:467} INFO - Running <TaskInstance: xcom_dag_v2.get_age manual__2025-02-20T13:13:51.111223+00:00 [running]> on host ajlas-macbook-air.local
+[2025-02-20T14:13:55.049+0100] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ajlakorman' AIRFLOW_CTX_DAG_ID='xcom_dag_v2' AIRFLOW_CTX_TASK_ID='get_age' AIRFLOW_CTX_EXECUTION_DATE='2025-02-20T13:13:51.111223+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-20T13:13:51.111223+00:00'
+[2025-02-20T14:13:55.049+0100] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-20T14:13:55.050+0100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-20T14:13:55.050+0100] {logging_mixin.py:190} INFO - Current task name:get_age state:running start_date:2025-02-20 13:13:54.992172+00:00
+[2025-02-20T14:13:55.050+0100] {logging_mixin.py:190} INFO - Dag name:xcom_dag_v2 and current dag run status:running
+[2025-02-20T14:13:55.050+0100] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-20T14:13:55.054+0100] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-20T14:13:55.056+0100] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-20T14:13:55.056+0100] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=xcom_dag_v2, task_id=get_age, run_id=manual__2025-02-20T13:13:51.111223+00:00, execution_date=20250220T131351, start_date=20250220T131354, end_date=20250220T131355
+[2025-02-20T14:13:55.062+0100] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-20T14:13:55.062+0100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-20T14:13:55.063+0100] {logging_mixin.py:190} INFO - Dag name:xcom_dag_v2 queued_at:2025-02-20 13:13:51.124886+00:00
+[2025-02-20T14:13:55.063+0100] {logging_mixin.py:190} INFO - Task hostname:ajlas-macbook-air.local operator:PythonOperator
+[2025-02-20T14:13:55.068+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-20T14:13:55.078+0100] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-20T14:13:55.079+0100] {local_task_job_runner.py:245} INFO - ::endgroup::

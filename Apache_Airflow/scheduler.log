@@ -553,3 +553,235 @@ Dag run in success state
 Dag run start:2025-02-20 12:22:51.417662+00:00 end:2025-02-20 12:22:56.678518+00:00
 [2025-02-20T13:22:56.678+0100] {dagrun.py:905} INFO - DagRun Finished: dag_id=our_first_dag_v3, execution_date=2025-02-20 12:22:49.470115+00:00, run_id=manual__2025-02-20T12:22:49.470115+00:00, run_start_date=2025-02-20 12:22:51.417662+00:00, run_end_date=2025-02-20 12:22:56.678518+00:00, run_duration=5.260856, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-02-19 00:00:00+00:00, data_interval_end=2025-02-20 00:00:00+00:00, dag_hash=0bb2b4cc54b7e824bacc5239fe1d876e
 [2025-02-20T13:26:58.216+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-02-20T13:31:59.144+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-02-20T13:36:59.427+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-02-20T13:41:59.504+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+Dag run  in running state
+Dag information Queued at: 2025-02-20 12:45:47.695066+00:00 hash info: f3b0a9ec300636fb76f5feb57b982032
+[2025-02-20T13:45:49.164+0100] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: python_operator_dag_v01.greet manual__2025-02-20T12:45:47.672325+00:00 [scheduled]>
+[2025-02-20T13:45:49.165+0100] {scheduler_job_runner.py:507} INFO - DAG python_operator_dag_v01 has 0/16 running and queued tasks
+[2025-02-20T13:45:49.165+0100] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: python_operator_dag_v01.greet manual__2025-02-20T12:45:47.672325+00:00 [scheduled]>
+[2025-02-20T13:45:49.166+0100] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: python_operator_dag_v01.greet manual__2025-02-20T12:45:47.672325+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-02-20T13:45:49.166+0100] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='python_operator_dag_v01', task_id='greet', run_id='manual__2025-02-20T12:45:47.672325+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2025-02-20T13:45:49.166+0100] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'python_operator_dag_v01', 'greet', 'manual__2025-02-20T12:45:47.672325+00:00', '--local', '--subdir', 'DAGS_FOLDER/python_operator_dag.py']
+[2025-02-20T13:45:49.167+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'python_operator_dag_v01', 'greet', 'manual__2025-02-20T12:45:47.672325+00:00', '--local', '--subdir', 'DAGS_FOLDER/python_operator_dag.py']
+[2025-02-20T13:45:49.801+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:45:49.806+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:45:49.837+0100] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-02-20T13:45:49.837+0100] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T13:45:49.845+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T13:45:49.846+0100] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-20T13:45:49.916+0100] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T13:45:50.024+0100] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T13:45:50.047+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:45:50.063+0100] {task_command.py:467} INFO - Running <TaskInstance: python_operator_dag_v01.greet manual__2025-02-20T12:45:47.672325+00:00 [queued]> on host ajlas-macbook-air.local
+[2025-02-20T13:45:50.463+0100] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='python_operator_dag_v01', task_id='greet', run_id='manual__2025-02-20T12:45:47.672325+00:00', try_number=1, map_index=-1)
+[2025-02-20T13:45:50.467+0100] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=python_operator_dag_v01, task_id=greet, run_id=manual__2025-02-20T12:45:47.672325+00:00, map_index=-1, run_start_date=2025-02-20 12:45:50.135499+00:00, run_end_date=2025-02-20 12:45:50.210792+00:00, run_duration=0.075293, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=5, job_id=22, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-02-20 12:45:49.165594+00:00, queued_by_job_id=3, pid=20120
+[2025-02-20T13:47:00.524+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-02-20T13:47:50.687+0100] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: python_operator_dag_v01.greet manual__2025-02-20T12:45:47.672325+00:00 [scheduled]>
+[2025-02-20T13:47:50.688+0100] {scheduler_job_runner.py:507} INFO - DAG python_operator_dag_v01 has 0/16 running and queued tasks
+[2025-02-20T13:47:50.688+0100] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: python_operator_dag_v01.greet manual__2025-02-20T12:45:47.672325+00:00 [scheduled]>
+[2025-02-20T13:47:50.689+0100] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: python_operator_dag_v01.greet manual__2025-02-20T12:45:47.672325+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-02-20T13:47:50.689+0100] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='python_operator_dag_v01', task_id='greet', run_id='manual__2025-02-20T12:45:47.672325+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2025-02-20T13:47:50.689+0100] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'python_operator_dag_v01', 'greet', 'manual__2025-02-20T12:45:47.672325+00:00', '--local', '--subdir', 'DAGS_FOLDER/python_operator_dag.py']
+[2025-02-20T13:47:50.690+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'python_operator_dag_v01', 'greet', 'manual__2025-02-20T12:45:47.672325+00:00', '--local', '--subdir', 'DAGS_FOLDER/python_operator_dag.py']
+[2025-02-20T13:47:51.426+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:47:51.432+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag.py
+[2025-02-20T13:47:51.463+0100] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-02-20T13:47:51.463+0100] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T13:47:51.471+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T13:47:51.472+0100] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-20T13:47:51.549+0100] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T13:47:51.673+0100] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T13:47:51.693+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:47:51.712+0100] {task_command.py:467} INFO - Running <TaskInstance: python_operator_dag_v01.greet manual__2025-02-20T12:45:47.672325+00:00 [queued]> on host ajlas-macbook-air.local
+[2025-02-20T13:47:52.200+0100] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='python_operator_dag_v01', task_id='greet', run_id='manual__2025-02-20T12:45:47.672325+00:00', try_number=2, map_index=-1)
+[2025-02-20T13:47:52.204+0100] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=python_operator_dag_v01, task_id=greet, run_id=manual__2025-02-20T12:45:47.672325+00:00, map_index=-1, run_start_date=2025-02-20 12:47:51.801378+00:00, run_end_date=2025-02-20 12:47:51.882376+00:00, run_duration=0.080998, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=5, job_id=23, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-02-20 12:47:50.688773+00:00, queued_by_job_id=3, pid=20541
+[2025-02-20T13:47:53.064+0100] {dagrun.py:854} INFO - Marking run <DagRun python_operator_dag_v01 @ 2025-02-20 12:45:47.672325+00:00: manual__2025-02-20T12:45:47.672325+00:00, state:running, queued_at: 2025-02-20 12:45:47.695066+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2025-02-20 12:45:49.155503+00:00 end:2025-02-20 12:47:53.065060+00:00
+[2025-02-20T13:47:53.065+0100] {dagrun.py:905} INFO - DagRun Finished: dag_id=python_operator_dag_v01, execution_date=2025-02-20 12:45:47.672325+00:00, run_id=manual__2025-02-20T12:45:47.672325+00:00, run_start_date=2025-02-20 12:45:49.155503+00:00, run_end_date=2025-02-20 12:47:53.065060+00:00, run_duration=123.909557, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-02-19 00:00:00+00:00, data_interval_end=2025-02-20 00:00:00+00:00, dag_hash=63a521dc95b2fb566257e4ca39b73a60
+Dag run  in running state
+Dag information Queued at: 2025-02-20 12:47:54.550413+00:00 hash info: fef710e88783acc749ad58cf696b8c49
+[2025-02-20T13:47:55.793+0100] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: python_operator_dag_v02.greet manual__2025-02-20T12:47:54.542119+00:00 [scheduled]>
+[2025-02-20T13:47:55.793+0100] {scheduler_job_runner.py:507} INFO - DAG python_operator_dag_v02 has 0/16 running and queued tasks
+[2025-02-20T13:47:55.794+0100] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: python_operator_dag_v02.greet manual__2025-02-20T12:47:54.542119+00:00 [scheduled]>
+[2025-02-20T13:47:55.794+0100] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: python_operator_dag_v02.greet manual__2025-02-20T12:47:54.542119+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-02-20T13:47:55.795+0100] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='python_operator_dag_v02', task_id='greet', run_id='manual__2025-02-20T12:47:54.542119+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2025-02-20T13:47:55.795+0100] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'python_operator_dag_v02', 'greet', 'manual__2025-02-20T12:47:54.542119+00:00', '--local', '--subdir', 'DAGS_FOLDER/python_operator_dag_v2.py']
+[2025-02-20T13:47:55.796+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'python_operator_dag_v02', 'greet', 'manual__2025-02-20T12:47:54.542119+00:00', '--local', '--subdir', 'DAGS_FOLDER/python_operator_dag_v2.py']
+[2025-02-20T13:47:56.529+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:47:56.548+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/python_operator_dag_v2.py
+[2025-02-20T13:47:56.590+0100] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-02-20T13:47:56.591+0100] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T13:47:56.600+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T13:47:56.600+0100] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-20T13:47:56.673+0100] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T13:47:56.733+0100] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T13:47:56.761+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T13:47:56.779+0100] {task_command.py:467} INFO - Running <TaskInstance: python_operator_dag_v02.greet manual__2025-02-20T12:47:54.542119+00:00 [queued]> on host ajlas-macbook-air.local
+[2025-02-20T13:47:57.339+0100] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='python_operator_dag_v02', task_id='greet', run_id='manual__2025-02-20T12:47:54.542119+00:00', try_number=1, map_index=-1)
+[2025-02-20T13:47:57.348+0100] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=python_operator_dag_v02, task_id=greet, run_id=manual__2025-02-20T12:47:54.542119+00:00, map_index=-1, run_start_date=2025-02-20 12:47:56.871921+00:00, run_end_date=2025-02-20 12:47:57.018817+00:00, run_duration=0.146896, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=5, job_id=24, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-02-20 12:47:55.794335+00:00, queued_by_job_id=3, pid=20553
+[2025-02-20T13:47:58.328+0100] {dagrun.py:854} INFO - Marking run <DagRun python_operator_dag_v02 @ 2025-02-20 12:47:54.542119+00:00: manual__2025-02-20T12:47:54.542119+00:00, state:running, queued_at: 2025-02-20 12:47:54.550413+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2025-02-20 12:47:55.784617+00:00 end:2025-02-20 12:47:58.328776+00:00
+[2025-02-20T13:47:58.328+0100] {dagrun.py:905} INFO - DagRun Finished: dag_id=python_operator_dag_v02, execution_date=2025-02-20 12:47:54.542119+00:00, run_id=manual__2025-02-20T12:47:54.542119+00:00, run_start_date=2025-02-20 12:47:55.784617+00:00, run_end_date=2025-02-20 12:47:58.328776+00:00, run_duration=2.544159, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-02-19 00:00:00+00:00, data_interval_end=2025-02-20 00:00:00+00:00, dag_hash=fef710e88783acc749ad58cf696b8c49
+[2025-02-20T13:52:01.459+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-02-20T13:57:02.468+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-02-20T14:02:03.593+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-02-20T14:07:04.594+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-02-20T14:12:05.523+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+Dag run  in running state
+Dag information Queued at: 2025-02-20 13:13:19.129957+00:00 hash info: 049d3840685b14baf181282c758808f8
+[2025-02-20T14:13:20.843+0100] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: xcom_dag_v1.get_name manual__2025-02-20T13:13:19.117889+00:00 [scheduled]>
+[2025-02-20T14:13:20.843+0100] {scheduler_job_runner.py:507} INFO - DAG xcom_dag_v1 has 0/16 running and queued tasks
+[2025-02-20T14:13:20.844+0100] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: xcom_dag_v1.get_name manual__2025-02-20T13:13:19.117889+00:00 [scheduled]>
+[2025-02-20T14:13:20.844+0100] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: xcom_dag_v1.get_name manual__2025-02-20T13:13:19.117889+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-02-20T14:13:20.845+0100] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='xcom_dag_v1', task_id='get_name', run_id='manual__2025-02-20T13:13:19.117889+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2025-02-20T14:13:20.845+0100] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'xcom_dag_v1', 'get_name', 'manual__2025-02-20T13:13:19.117889+00:00', '--local', '--subdir', 'DAGS_FOLDER/xcom_dag_v1.py']
+[2025-02-20T14:13:20.845+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'xcom_dag_v1', 'get_name', 'manual__2025-02-20T13:13:19.117889+00:00', '--local', '--subdir', 'DAGS_FOLDER/xcom_dag_v1.py']
+[2025-02-20T14:13:21.438+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:13:21.443+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:13:21.473+0100] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-02-20T14:13:21.473+0100] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T14:13:21.481+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:13:21.481+0100] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-20T14:13:21.556+0100] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:13:21.633+0100] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T14:13:21.651+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:13:21.665+0100] {task_command.py:467} INFO - Running <TaskInstance: xcom_dag_v1.get_name manual__2025-02-20T13:13:19.117889+00:00 [queued]> on host ajlas-macbook-air.local
+[2025-02-20T14:13:22.067+0100] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='xcom_dag_v1', task_id='get_name', run_id='manual__2025-02-20T13:13:19.117889+00:00', try_number=1, map_index=-1)
+[2025-02-20T14:13:22.070+0100] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=xcom_dag_v1, task_id=get_name, run_id=manual__2025-02-20T13:13:19.117889+00:00, map_index=-1, run_start_date=2025-02-20 13:13:21.748529+00:00, run_end_date=2025-02-20 13:13:21.812122+00:00, run_duration=0.063593, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=5, job_id=25, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2025-02-20 13:13:20.844275+00:00, queued_by_job_id=3, pid=23450
+[2025-02-20T14:13:23.033+0100] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: xcom_dag_v1.greet manual__2025-02-20T13:13:19.117889+00:00 [scheduled]>
+[2025-02-20T14:13:23.034+0100] {scheduler_job_runner.py:507} INFO - DAG xcom_dag_v1 has 0/16 running and queued tasks
+[2025-02-20T14:13:23.034+0100] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: xcom_dag_v1.greet manual__2025-02-20T13:13:19.117889+00:00 [scheduled]>
+[2025-02-20T14:13:23.034+0100] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: xcom_dag_v1.greet manual__2025-02-20T13:13:19.117889+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-02-20T14:13:23.035+0100] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='xcom_dag_v1', task_id='greet', run_id='manual__2025-02-20T13:13:19.117889+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2025-02-20T14:13:23.035+0100] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'xcom_dag_v1', 'greet', 'manual__2025-02-20T13:13:19.117889+00:00', '--local', '--subdir', 'DAGS_FOLDER/xcom_dag_v1.py']
+[2025-02-20T14:13:23.036+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'xcom_dag_v1', 'greet', 'manual__2025-02-20T13:13:19.117889+00:00', '--local', '--subdir', 'DAGS_FOLDER/xcom_dag_v1.py']
+[2025-02-20T14:13:23.647+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:13:23.652+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v1.py
+[2025-02-20T14:13:23.675+0100] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-02-20T14:13:23.675+0100] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T14:13:23.683+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:13:23.684+0100] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-20T14:13:23.749+0100] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:13:23.800+0100] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T14:13:23.820+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:13:23.833+0100] {task_command.py:467} INFO - Running <TaskInstance: xcom_dag_v1.greet manual__2025-02-20T13:13:19.117889+00:00 [queued]> on host ajlas-macbook-air.local
+[2025-02-20T14:13:24.167+0100] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='xcom_dag_v1', task_id='greet', run_id='manual__2025-02-20T13:13:19.117889+00:00', try_number=1, map_index=-1)
+[2025-02-20T14:13:24.170+0100] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=xcom_dag_v1, task_id=greet, run_id=manual__2025-02-20T13:13:19.117889+00:00, map_index=-1, run_start_date=2025-02-20 13:13:23.911771+00:00, run_end_date=2025-02-20 13:13:23.974029+00:00, run_duration=0.062258, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=5, job_id=26, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-02-20 13:13:23.034426+00:00, queued_by_job_id=3, pid=23455
+[2025-02-20T14:13:25.021+0100] {dagrun.py:854} INFO - Marking run <DagRun xcom_dag_v1 @ 2025-02-20 13:13:19.117889+00:00: manual__2025-02-20T13:13:19.117889+00:00, state:running, queued_at: 2025-02-20 13:13:19.129957+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2025-02-20 13:13:20.833697+00:00 end:2025-02-20 13:13:25.021883+00:00
+[2025-02-20T14:13:25.021+0100] {dagrun.py:905} INFO - DagRun Finished: dag_id=xcom_dag_v1, execution_date=2025-02-20 13:13:19.117889+00:00, run_id=manual__2025-02-20T13:13:19.117889+00:00, run_start_date=2025-02-20 13:13:20.833697+00:00, run_end_date=2025-02-20 13:13:25.021883+00:00, run_duration=4.188186, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-02-19 00:00:00+00:00, data_interval_end=2025-02-20 00:00:00+00:00, dag_hash=049d3840685b14baf181282c758808f8
+Dag run  in running state
+Dag information Queued at: 2025-02-20 13:13:51.124886+00:00 hash info: 5d4a5a00c8bedb599b3e9b22004cae29
+[2025-02-20T14:13:52.612+0100] {scheduler_job_runner.py:435} INFO - 2 tasks up for execution:
+	<TaskInstance: xcom_dag_v2.get_name manual__2025-02-20T13:13:51.111223+00:00 [scheduled]>
+	<TaskInstance: xcom_dag_v2.get_age manual__2025-02-20T13:13:51.111223+00:00 [scheduled]>
+[2025-02-20T14:13:52.613+0100] {scheduler_job_runner.py:507} INFO - DAG xcom_dag_v2 has 0/16 running and queued tasks
+[2025-02-20T14:13:52.613+0100] {scheduler_job_runner.py:507} INFO - DAG xcom_dag_v2 has 1/16 running and queued tasks
+[2025-02-20T14:13:52.613+0100] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: xcom_dag_v2.get_name manual__2025-02-20T13:13:51.111223+00:00 [scheduled]>
+	<TaskInstance: xcom_dag_v2.get_age manual__2025-02-20T13:13:51.111223+00:00 [scheduled]>
+[2025-02-20T14:13:52.616+0100] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: xcom_dag_v2.get_name manual__2025-02-20T13:13:51.111223+00:00 [scheduled]>, <TaskInstance: xcom_dag_v2.get_age manual__2025-02-20T13:13:51.111223+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-02-20T14:13:52.617+0100] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='xcom_dag_v2', task_id='get_name', run_id='manual__2025-02-20T13:13:51.111223+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2025-02-20T14:13:52.618+0100] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'xcom_dag_v2', 'get_name', 'manual__2025-02-20T13:13:51.111223+00:00', '--local', '--subdir', 'DAGS_FOLDER/xcom_dag_v2.py']
+[2025-02-20T14:13:52.619+0100] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='xcom_dag_v2', task_id='get_age', run_id='manual__2025-02-20T13:13:51.111223+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2025-02-20T14:13:52.619+0100] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'xcom_dag_v2', 'get_age', 'manual__2025-02-20T13:13:51.111223+00:00', '--local', '--subdir', 'DAGS_FOLDER/xcom_dag_v2.py']
+[2025-02-20T14:13:52.622+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'xcom_dag_v2', 'get_name', 'manual__2025-02-20T13:13:51.111223+00:00', '--local', '--subdir', 'DAGS_FOLDER/xcom_dag_v2.py']
+[2025-02-20T14:13:53.465+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:13:53.471+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v2.py
+[2025-02-20T14:13:53.507+0100] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-02-20T14:13:53.508+0100] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T14:13:53.516+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:13:53.517+0100] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-20T14:13:53.594+0100] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:13:53.664+0100] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T14:13:53.682+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:13:53.697+0100] {task_command.py:467} INFO - Running <TaskInstance: xcom_dag_v2.get_name manual__2025-02-20T13:13:51.111223+00:00 [queued]> on host ajlas-macbook-air.local
+[2025-02-20T14:13:54.085+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'xcom_dag_v2', 'get_age', 'manual__2025-02-20T13:13:51.111223+00:00', '--local', '--subdir', 'DAGS_FOLDER/xcom_dag_v2.py']
+[2025-02-20T14:13:54.697+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:13:54.705+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v2.py
+[2025-02-20T14:13:54.730+0100] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-02-20T14:13:54.730+0100] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T14:13:54.738+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:13:54.738+0100] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-20T14:13:54.802+0100] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:13:54.865+0100] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T14:13:54.895+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:13:54.912+0100] {task_command.py:467} INFO - Running <TaskInstance: xcom_dag_v2.get_age manual__2025-02-20T13:13:51.111223+00:00 [queued]> on host ajlas-macbook-air.local
+[2025-02-20T14:13:55.256+0100] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='xcom_dag_v2', task_id='get_name', run_id='manual__2025-02-20T13:13:51.111223+00:00', try_number=1, map_index=-1)
+[2025-02-20T14:13:55.257+0100] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='xcom_dag_v2', task_id='get_age', run_id='manual__2025-02-20T13:13:51.111223+00:00', try_number=1, map_index=-1)
+[2025-02-20T14:13:55.261+0100] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=xcom_dag_v2, task_id=get_age, run_id=manual__2025-02-20T13:13:51.111223+00:00, map_index=-1, run_start_date=2025-02-20 13:13:54.992172+00:00, run_end_date=2025-02-20 13:13:55.056319+00:00, run_duration=0.064147, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=5, job_id=28, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2025-02-20 13:13:52.613969+00:00, queued_by_job_id=3, pid=23505
+[2025-02-20T14:13:55.261+0100] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=xcom_dag_v2, task_id=get_name, run_id=manual__2025-02-20T13:13:51.111223+00:00, map_index=-1, run_start_date=2025-02-20 13:13:53.784330+00:00, run_end_date=2025-02-20 13:13:53.866885+00:00, run_duration=0.082555, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=5, job_id=27, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2025-02-20 13:13:52.613969+00:00, queued_by_job_id=3, pid=23502
+[2025-02-20T14:13:56.158+0100] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: xcom_dag_v2.greet manual__2025-02-20T13:13:51.111223+00:00 [scheduled]>
+[2025-02-20T14:13:56.158+0100] {scheduler_job_runner.py:507} INFO - DAG xcom_dag_v2 has 0/16 running and queued tasks
+[2025-02-20T14:13:56.159+0100] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: xcom_dag_v2.greet manual__2025-02-20T13:13:51.111223+00:00 [scheduled]>
+[2025-02-20T14:13:56.159+0100] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: xcom_dag_v2.greet manual__2025-02-20T13:13:51.111223+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-02-20T14:13:56.159+0100] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='xcom_dag_v2', task_id='greet', run_id='manual__2025-02-20T13:13:51.111223+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2025-02-20T14:13:56.160+0100] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'xcom_dag_v2', 'greet', 'manual__2025-02-20T13:13:51.111223+00:00', '--local', '--subdir', 'DAGS_FOLDER/xcom_dag_v2.py']
+[2025-02-20T14:13:56.160+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'xcom_dag_v2', 'greet', 'manual__2025-02-20T13:13:51.111223+00:00', '--local', '--subdir', 'DAGS_FOLDER/xcom_dag_v2.py']
+[2025-02-20T14:13:56.735+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:13:56.740+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/airflow/dags/xcom_dag_v2.py
+[2025-02-20T14:13:56.763+0100] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-02-20T14:13:56.764+0100] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T14:13:56.771+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:13:56.772+0100] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-02-20T14:13:56.836+0100] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-02-20T14:13:56.889+0100] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-02-20T14:13:56.906+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-20T14:13:56.919+0100] {task_command.py:467} INFO - Running <TaskInstance: xcom_dag_v2.greet manual__2025-02-20T13:13:51.111223+00:00 [queued]> on host ajlas-macbook-air.local
+[2025-02-20T14:13:57.252+0100] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='xcom_dag_v2', task_id='greet', run_id='manual__2025-02-20T13:13:51.111223+00:00', try_number=1, map_index=-1)
+[2025-02-20T14:13:57.255+0100] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=xcom_dag_v2, task_id=greet, run_id=manual__2025-02-20T13:13:51.111223+00:00, map_index=-1, run_start_date=2025-02-20 13:13:57.004159+00:00, run_end_date=2025-02-20 13:13:57.064351+00:00, run_duration=0.060192, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=5, job_id=29, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-02-20 13:13:56.159323+00:00, queued_by_job_id=3, pid=23512
+[2025-02-20T14:13:58.181+0100] {dagrun.py:854} INFO - Marking run <DagRun xcom_dag_v2 @ 2025-02-20 13:13:51.111223+00:00: manual__2025-02-20T13:13:51.111223+00:00, state:running, queued_at: 2025-02-20 13:13:51.124886+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2025-02-20 13:13:52.601905+00:00 end:2025-02-20 13:13:58.181850+00:00
+[2025-02-20T14:13:58.181+0100] {dagrun.py:905} INFO - DagRun Finished: dag_id=xcom_dag_v2, execution_date=2025-02-20 13:13:51.111223+00:00, run_id=manual__2025-02-20T13:13:51.111223+00:00, run_start_date=2025-02-20 13:13:52.601905+00:00, run_end_date=2025-02-20 13:13:58.181850+00:00, run_duration=5.579945, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-02-19 00:00:00+00:00, data_interval_end=2025-02-20 00:00:00+00:00, dag_hash=5d4a5a00c8bedb599b3e9b22004cae29
+[2025-02-20T14:17:05.529+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-02-20T14:18:43.826+0100] {job.py:229} INFO - Heartbeat recovered after 98.30 seconds
