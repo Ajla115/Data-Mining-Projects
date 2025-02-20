@@ -559,3 +559,10 @@
 [2025-02-20T13:26:05.463+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:26:05.463+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-20T13:26:05.468+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:26:05.468+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2025-02-20T13:26:05.474+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.087 seconds
+[2025-02-20T13:27:24.924+0100] {processor.py:186} INFO - Started process (PID=17761) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-02-20T13:27:24.925+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-02-20T13:27:24.925+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:24.925+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-02-20T13:27:24.935+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-02-20T13:27:25.030+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:25.030+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:27:25.038+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:25.037+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-02-20T13:27:25.051+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.128 seconds

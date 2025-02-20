@@ -646,3 +646,11 @@
 [2025-02-20T13:26:09.243+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:26:09.243+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
 [2025-02-20T13:26:09.244+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:26:09.244+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
 [2025-02-20T13:26:09.250+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.094 seconds
+[2025-02-20T13:27:28.855+0100] {processor.py:186} INFO - Started process (PID=17793) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-02-20T13:27:28.856+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-02-20T13:27:28.856+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:28.856+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-02-20T13:27:28.872+0100] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-02-20T13:27:28.936+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:28.935+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-02-20T13:27:28.940+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:28.940+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-02-20T13:27:28.941+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:28.941+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-02-20T13:27:28.947+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.093 seconds

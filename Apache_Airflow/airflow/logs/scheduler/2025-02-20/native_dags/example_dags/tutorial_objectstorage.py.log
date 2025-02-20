@@ -559,3 +559,10 @@
 [2025-02-20T13:26:03.595+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:26:03.595+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-20T13:26:03.599+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:26:03.599+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
 [2025-02-20T13:26:03.606+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.091 seconds
+[2025-02-20T13:27:22.970+0100] {processor.py:186} INFO - Started process (PID=17754) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-20T13:27:22.971+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-02-20T13:27:22.971+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:22.971+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-20T13:27:22.986+0100] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-02-20T13:27:23.059+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:23.058+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:27:23.064+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:23.064+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-02-20T13:27:23.071+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.103 seconds

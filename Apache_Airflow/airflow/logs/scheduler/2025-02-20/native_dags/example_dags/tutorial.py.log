@@ -559,3 +559,10 @@
 [2025-02-20T13:26:07.353+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:26:07.353+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-20T13:26:07.360+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:26:07.360+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-19 00:00:00+00:00, run_after=2025-02-20 00:00:00+00:00
 [2025-02-20T13:26:07.367+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2025-02-20T13:27:26.981+0100] {processor.py:186} INFO - Started process (PID=17782) to work on /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-02-20T13:27:26.982+0100] {processor.py:914} INFO - Processing file /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-20T13:27:26.983+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:26.983+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-02-20T13:27:26.989+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-02-20T13:27:27.054+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:27.054+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-20T13:27:27.061+0100] {logging_mixin.py:190} INFO - [2025-02-20T13:27:27.061+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-19 00:00:00+00:00, run_after=2025-02-20 00:00:00+00:00
+[2025-02-20T13:27:27.069+0100] {processor.py:208} INFO - Processing /Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
