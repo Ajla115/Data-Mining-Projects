@@ -1,0 +1,280 @@
+[2025-02-20T17:34:48.669+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-20T17:34:48.669+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-20T17:34:48.674+0100] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_example.extract_data scheduled__2024-05-27T00:00:00+00:00 [queued]>
+[2025-02-20T17:34:48.675+0100] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_example.extract_data scheduled__2024-05-27T00:00:00+00:00 [queued]>
+[2025-02-20T17:34:48.677+0100] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_example.extract_data scheduled__2024-05-27T00:00:00+00:00 [queued]>
+[2025-02-20T17:34:48.677+0100] {taskinstance.py:2867} INFO - Starting attempt 2 of 2
+[2025-02-20T17:34:48.677+0100] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_example.extract_data scheduled__2024-05-27T00:00:00+00:00 [queued]>
+[2025-02-20T17:34:48.678+0100] {taskinstance.py:2867} INFO - Starting attempt 2 of 2
+[2025-02-20T17:34:48.683+0100] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_data> on 2024-05-27 00:00:00+00:00
+[2025-02-20T17:34:48.686+0100] {standard_task_runner.py:72} INFO - Started process 40093 to run task
+[2025-02-20T17:34:48.688+0100] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_data> on 2024-05-27 00:00:00+00:00
+[2025-02-20T17:34:48.689+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_example', 'extract_data', 'scheduled__2024-05-27T00:00:00+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/var/folders/d6/rl60yzz90jj_2v0s4gm257780000gn/T/tmpp9ro2lw4']
+[2025-02-20T17:34:48.690+0100] {standard_task_runner.py:105} INFO - Job 156: Subtask extract_data
+[2025-02-20T17:34:48.691+0100] {standard_task_runner.py:72} INFO - Started process 40094 to run task
+[2025-02-20T17:34:48.694+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_example', 'extract_data', 'scheduled__2024-05-27T00:00:00+00:00', '--job-id', '155', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/var/folders/d6/rl60yzz90jj_2v0s4gm257780000gn/T/tmph_nz0dg7']
+[2025-02-20T17:34:48.695+0100] {standard_task_runner.py:105} INFO - Job 155: Subtask extract_data
+[2025-02-20T17:34:48.719+0100] {task_command.py:467} INFO - Running <TaskInstance: etl_example.extract_data scheduled__2024-05-27T00:00:00+00:00 [running]> on host ajlas-macbook-air.local
+[2025-02-20T17:34:48.723+0100] {task_command.py:467} INFO - Running <TaskInstance: etl_example.extract_data scheduled__2024-05-27T00:00:00+00:00 [running]> on host ajlas-macbook-air.local
+[2025-02-20T17:34:48.750+0100] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ajlakorman' AIRFLOW_CTX_DAG_ID='etl_example' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-05-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-27T00:00:00+00:00'
+[2025-02-20T17:34:48.750+0100] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-20T17:34:48.751+0100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-20T17:34:48.751+0100] {logging_mixin.py:190} INFO - Current task name:extract_data state:running start_date:2025-02-20 16:34:48.675364+00:00
+[2025-02-20T17:34:48.751+0100] {logging_mixin.py:190} INFO - Dag name:etl_example and current dag run status:running
+[2025-02-20T17:34:48.751+0100] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-20T17:34:48.751+0100] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: rendered_task_instance_fields.dag_id, rendered_task_instance_fields.task_id, rendered_task_instance_fields.run_id, rendered_task_instance_fields.map_index
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3125, in _execute_task_with_callbacks
+    _update_rtif(ti=self, rendered_fields=rendered_fields)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1643, in _update_rtif
+    session.flush()
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+    self._flush(objects)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3588, in _flush
+    with util.safe_reraise():
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+    flush_context.execute()
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 1097, in _emit_insert_statements
+    c = connection._execute_20(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: rendered_task_instance_fields.dag_id, rendered_task_instance_fields.task_id, rendered_task_instance_fields.run_id, rendered_task_instance_fields.map_index
+[SQL: INSERT INTO rendered_task_instance_fields (dag_id, task_id, run_id, map_index, rendered_fields, k8s_pod_yaml) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('etl_example', 'extract_data', 'scheduled__2024-05-27T00:00:00+00:00', -1, '{"templates_dict": null, "op_args": [], "op_kwargs": {}}', 'null')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2025-02-20T17:34:48.758+0100] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-02-20T17:34:48.759+0100] {logging_mixin.py:190} INFO - Task start:2025-02-20 16:34:48.675364+00:00 end:2025-02-20 16:34:48.758584+00:00 duration:0.08322
+[2025-02-20T17:34:48.759+0100] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_data> dag:<DAG: etl_example> dagrun:<DagRun etl_example @ 2024-05-27 00:00:00+00:00: scheduled__2024-05-27T00:00:00+00:00, state:running, queued_at: 2025-02-20 16:34:47.321752+00:00. externally triggered: False>
+[2025-02-20T17:34:48.759+0100] {logging_mixin.py:190} INFO - Failure caused by (sqlite3.IntegrityError) UNIQUE constraint failed: rendered_task_instance_fields.dag_id, rendered_task_instance_fields.task_id, rendered_task_instance_fields.run_id, rendered_task_instance_fields.map_index
+[SQL: INSERT INTO rendered_task_instance_fields (dag_id, task_id, run_id, map_index, rendered_fields, k8s_pod_yaml) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('etl_example', 'extract_data', 'scheduled__2024-05-27T00:00:00+00:00', -1, '{"templates_dict": null, "op_args": [], "op_kwargs": {}}', 'null')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2025-02-20T17:34:48.760+0100] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=etl_example, task_id=extract_data, run_id=scheduled__2024-05-27T00:00:00+00:00, execution_date=20240527T000000, start_date=20250220T163448, end_date=20250220T163448
+[2025-02-20T17:34:48.766+0100] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-20T17:34:48.767+0100] {standard_task_runner.py:124} ERROR - Failed to execute job 155 for task extract_data ((sqlite3.IntegrityError) UNIQUE constraint failed: rendered_task_instance_fields.dag_id, rendered_task_instance_fields.task_id, rendered_task_instance_fields.run_id, rendered_task_instance_fields.map_index
+[SQL: INSERT INTO rendered_task_instance_fields (dag_id, task_id, run_id, map_index, rendered_fields, k8s_pod_yaml) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('etl_example', 'extract_data', 'scheduled__2024-05-27T00:00:00+00:00', -1, '{"templates_dict": null, "op_args": [], "op_kwargs": {}}', 'null')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 40094)
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: rendered_task_instance_fields.dag_id, rendered_task_instance_fields.task_id, rendered_task_instance_fields.run_id, rendered_task_instance_fields.map_index
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3125, in _execute_task_with_callbacks
+    _update_rtif(ti=self, rendered_fields=rendered_fields)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1643, in _update_rtif
+    session.flush()
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+    self._flush(objects)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3588, in _flush
+    with util.safe_reraise():
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+    flush_context.execute()
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 1097, in _emit_insert_statements
+    c = connection._execute_20(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: rendered_task_instance_fields.dag_id, rendered_task_instance_fields.task_id, rendered_task_instance_fields.run_id, rendered_task_instance_fields.map_index
+[SQL: INSERT INTO rendered_task_instance_fields (dag_id, task_id, run_id, map_index, rendered_fields, k8s_pod_yaml) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('etl_example', 'extract_data', 'scheduled__2024-05-27T00:00:00+00:00', -1, '{"templates_dict": null, "op_args": [], "op_kwargs": {}}', 'null')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2025-02-20T17:34:48.764+0100] {python.py:240} INFO - Done. Returned value was:       rank  finalWorth  ... latitude_country longitude_country
+0        1      211000  ...        46.227638          2.213749
+1        2      180000  ...        37.090240        -95.712891
+2        3      114000  ...        37.090240        -95.712891
+3        4      107000  ...        37.090240        -95.712891
+4        5      106000  ...        37.090240        -95.712891
+...    ...         ...  ...              ...               ...
+2635  2540        1000  ...        35.861660        104.195397
+2636  2540        1000  ...        37.090240        -95.712891
+2637  2540        1000  ...        35.861660        104.195397
+2638  2540        1000  ...        35.861660        104.195397
+2639  2540        1000  ...        12.879721        121.774017
+
+[2640 rows x 35 columns]
+[2025-02-20T17:34:48.778+0100] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 790, in _execute_task
+    task_instance.xcom_push(key=XCOM_RETURN_KEY, value=xcom_value, session=session_or_null)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3645, in xcom_push
+    XCom.set(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/xcom.py", line 249, in set
+    value = cls.serialize_value(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/xcom.py", line 688, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/json.py", line 105, in encode
+    return super().encode(o)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/json.py", line 92, in default
+    return serialize(o)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/serialization/serde.py", line 149, in serialize
+    data, serialized_classname, version, is_serialized = _serializers[qn].serialize(o)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/serialization/serializers/pandas.py", line 40, in serialize
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+[2025-02-20T17:34:48.782+0100] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-02-20T17:34:48.782+0100] {logging_mixin.py:190} INFO - Task start:2025-02-20 16:34:48.675364+00:00 end:2025-02-20 16:34:48.782017+00:00 duration:0.106653
+[2025-02-20T17:34:48.782+0100] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_data> dag:<DAG: etl_example> dagrun:<DagRun etl_example @ 2024-05-27 00:00:00+00:00: scheduled__2024-05-27T00:00:00+00:00, state:running, queued_at: 2025-02-20 16:34:47.321752+00:00. externally triggered: False>
+[2025-02-20T17:34:48.782+0100] {logging_mixin.py:190} INFO - Failure caused by No module named 'pyarrow'
+[2025-02-20T17:34:48.783+0100] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=etl_example, task_id=extract_data, run_id=scheduled__2024-05-27T00:00:00+00:00, execution_date=20240527T000000, start_date=20250220T163448, end_date=20250220T163448
+[2025-02-20T17:34:48.788+0100] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-20T17:34:48.789+0100] {standard_task_runner.py:124} ERROR - Failed to execute job 156 for task extract_data (No module named 'pyarrow'; 40093)
+Traceback (most recent call last):
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 790, in _execute_task
+    task_instance.xcom_push(key=XCOM_RETURN_KEY, value=xcom_value, session=session_or_null)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3645, in xcom_push
+    XCom.set(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/xcom.py", line 249, in set
+    value = cls.serialize_value(
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/models/xcom.py", line 688, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/json.py", line 105, in encode
+    return super().encode(o)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/utils/json.py", line 92, in default
+    return serialize(o)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/serialization/serde.py", line 149, in serialize
+    data, serialized_classname, version, is_serialized = _serializers[qn].serialize(o)
+  File "/Users/ajlakorman/Desktop/Data-Mining-Projects/Apache_Airflow/venv/lib/python3.10/site-packages/airflow/serialization/serializers/pandas.py", line 40, in serialize
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+[2025-02-20T17:34:48.793+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-20T17:34:48.795+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-20T17:34:48.804+0100] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-20T17:34:48.806+0100] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-20T17:34:48.806+0100] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-02-20T17:34:48.808+0100] {local_task_job_runner.py:245} INFO - ::endgroup::

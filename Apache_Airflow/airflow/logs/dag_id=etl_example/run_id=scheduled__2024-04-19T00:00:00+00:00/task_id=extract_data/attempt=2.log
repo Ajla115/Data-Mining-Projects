@@ -8,3 +8,8 @@
 [2025-02-20T16:57:04.727+0100] {standard_task_runner.py:105} INFO - Job 90: Subtask extract_data
 [2025-02-20T17:02:50.798+0100] {job.py:229} INFO - Heartbeat recovered after 33.51 seconds
 [2025-02-20T17:04:33.988+0100] {job.py:229} INFO - Heartbeat recovered after 57.86 seconds
+[2025-02-20T17:24:41.480+0100] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2025-02-20T17:24:41.486+0100] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-02-20T17:24:41.490+0100] {process_utils.py:132} INFO - Sending 15 to group 37367. PIDs of all processes in the group: [37367]
+[2025-02-20T17:24:41.491+0100] {process_utils.py:87} INFO - Sending the signal 15 to group 37367
+[2025-02-20T17:24:41.493+0100] {process_utils.py:80} INFO - Process psutil.Process(pid=37367, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='16:57:04') (37367) terminated with exit code -15
